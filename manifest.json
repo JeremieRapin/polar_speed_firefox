@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Polar Flow Append Speed",
+  "version": "1.1",
+  "permissions":[
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://flow.polar.com/training/analysis/*"],
+      "js": ["appendSpeed.js"]
+    }
+  ]
+}
